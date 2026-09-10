@@ -1,0 +1,47 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> dong-hai-open-world@0.4.0-asset-rebuild test
+> node --test tests/*.test.mjs
+
+✔ origin and local axis directions (2.243735ms)
+✔ mission finishes once with exact cost, item consumption and reward (0.487313ms)
+✔ pre-purchased quest item never requires a second purchase (0.154904ms)
+✔ wrong event/target cannot advance mission (0.107086ms)
+✔ delivery requires an item (0.201505ms)
+✔ insufficient funds and invalid item leave state untouched (0.119816ms)
+✔ save round-trip retains progress (0.421124ms)
+✔ corrupt save and malformed vehicle positions are rejected/sanitized (0.196415ms)
+✔ segment projection clamps and handles zero length (0.442549ms)
+✔ A* respects direction and disconnected roads (0.663595ms)
+✔ OSM route links gate, shop and coast (10.388886ms)
+✔ Rapier capsule stays above ground and cannot cross a wall after 600 steps (111.694689ms)
+✔ locomotion converges smoothly and consistently at 30/60/120 Hz (1.291116ms)
+✔ turning crosses the -PI/PI seam via the short arc (0.203643ms)
+✔ skinned player has bones and all animated transforms stay finite (41.984277ms)
+✔ detailed house preserves finite geometry and batches draw calls (37.744219ms)
+✔ tree has three decreasing LOD levels and finite distant hills (35.496068ms)
+✔ OSM planting highest-detail active instances stay within budget (119.38358ms)
+Village fixture: 105 houses with colliders
+Road crossing endpoint vA {
+  x: -0.0015180760528892279,
+  y: 0.756808876991272,
+  z: 3.9399337768554688
+} crown height 0.8705505728721619
+✔ full village build keeps houses bounded and creates matching colliders (1270.51545ms)
+✔ crowned road has upward normals, joined stations and finite geometry (1.091667ms)
+✔ road strips preserve provided OSM points at center and support duplicate nodes (0.339574ms)
+✔ five review camera definitions are deterministic and include vehicle view (3.529383ms)
+✔ road physics supports a capsule crossing the road crown (97.213485ms)
+✔ review shot switching resets pending physics targets and bike lean (18.397382ms)
+✔ batching mixed indexed/extruded meshes preserves all triangles and LOD (1.067278ms)
+✔ vehicle wheel rotation, steering damping and resets work for both models (9.6287ms)
+✔ twenty residential arrangements keep driveway open and bound colliders (62.918685ms)
+✔ dog and chicken motion is finite, bounded and continuous in the yard (15.690848ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2911.733674

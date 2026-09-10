@@ -1,0 +1,13 @@
+{
+  "version": "0.4.0-asset-rebuild",
+  "date": "2026-09-10",
+  "tests": {
+    "pass": 28,
+    "fail": 0
+  },
+  "typecheck": "PASS",
+  "productionBuild": "PASS",
+  "runtime": "BLOCKED_WEBGL_CONTEXT",
+  "visualGate": "NOT_EVALUATED",
+  "newGameplayScreenshots": 0
+}

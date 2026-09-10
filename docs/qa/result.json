@@ -1,0 +1,23 @@
+{
+  "technical": "pass",
+  "tests": {
+    "pass": 12,
+    "fail": 0
+  },
+  "typecheck": {
+    "exit": 0
+  },
+  "build": {
+    "exit": 0,
+    "warnings": [
+      "large client chunk"
+    ]
+  },
+  "visual": "blocked_webgl",
+  "e2e": "not_verified",
+  "mobile_performance": "not_verified",
+  "product_acceptance": false,
+  "repair_rounds": 1,
+  "browser_attempts": 2,
+  "max_repair_rounds_per_item": 3
+}

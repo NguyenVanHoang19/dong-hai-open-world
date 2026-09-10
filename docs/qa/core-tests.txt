@@ -1,0 +1,20 @@
+✔ origin and local axis directions (1.41663ms)
+✔ mission finishes once with exact cost, item consumption and reward (0.252494ms)
+✔ pre-purchased quest item never requires a second purchase (0.104745ms)
+✔ wrong event/target cannot advance mission (0.092738ms)
+✔ delivery requires an item (0.138716ms)
+✔ insufficient funds and invalid item leave state untouched (0.092988ms)
+✔ save round-trip retains progress (0.338291ms)
+✔ corrupt save and malformed vehicle positions are rejected/sanitized (0.154559ms)
+✔ segment projection clamps and handles zero length (0.217723ms)
+✔ A* respects direction and disconnected roads (0.476225ms)
+✔ OSM route links gate, shop and coast (4.624715ms)
+✔ Rapier capsule stays above ground and cannot cross a wall after 600 steps (64.358868ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 715.75376

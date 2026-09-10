@@ -1,0 +1,43 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# build / cache
+.next/
+out/
+build/
+dist/
+.turbo/
+.vinext/
+.wrangler/
+.openai/
+
+# env & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+**/secrets/
+
+# debug / logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# test / coverage
+coverage/
+.nyc_output/
+
+# IDE / OS
+.DS_Store
+*.swp
+.idea/
+.vscode/
+*.tsbuildinfo
+
+# local tooling
+*.local

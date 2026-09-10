@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "tests_pass": 19,
+  "tests_fail": 0,
+  "houses": 105,
+  "build_exit": 0,
+  "typecheck_exit": 0,
+  "visual": "not_verified",
+  "performance": "not_verified",
+  "source_geometry": "illustrative_road_aligned",
+  "avatar": "original_stylized_skinned_mesh",
+  "rounds": 2,
+  "max_rounds": 3
+}

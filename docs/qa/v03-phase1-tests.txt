@@ -1,0 +1,43 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> dong-hai-open-world@0.3.0-phase1 test
+> node --test tests/*.test.mjs
+
+✔ origin and local axis directions (1.651196ms)
+✔ mission finishes once with exact cost, item consumption and reward (0.327253ms)
+✔ pre-purchased quest item never requires a second purchase (0.118568ms)
+✔ wrong event/target cannot advance mission (0.098579ms)
+✔ delivery requires an item (0.163306ms)
+✔ insufficient funds and invalid item leave state untouched (0.12573ms)
+✔ save round-trip retains progress (0.340983ms)
+✔ corrupt save and malformed vehicle positions are rejected/sanitized (0.152379ms)
+✔ segment projection clamps and handles zero length (0.274723ms)
+✔ A* respects direction and disconnected roads (0.540634ms)
+✔ OSM route links gate, shop and coast (7.750016ms)
+✔ Rapier capsule stays above ground and cannot cross a wall after 600 steps (140.314522ms)
+✔ locomotion converges smoothly and consistently at 30/60/120 Hz (1.479206ms)
+✔ turning crosses the -PI/PI seam via the short arc (0.137947ms)
+✔ skinned player has bones and all animated transforms stay finite (56.853967ms)
+✔ detailed house preserves finite geometry and batches draw calls (16.07703ms)
+✔ tree leaves are instanced and distant hills have finite normals (14.248677ms)
+✔ OSM roadside grass stays within a bounded instance budget (55.867022ms)
+Village fixture: 105 houses with colliders
+Road crossing endpoint vA {
+  x: -0.0015180760528892279,
+  y: 0.756808876991272,
+  z: 3.9399337768554688
+} crown height 0.8705505728721619
+✔ full village build keeps houses bounded and creates matching colliders (720.668615ms)
+✔ crowned road has upward normals, joined stations and finite geometry (0.909829ms)
+✔ road strips preserve provided OSM points at center and support duplicate nodes (0.29226ms)
+✔ five review camera definitions are deterministic and include vehicle view (1.775983ms)
+✔ road physics supports a capsule crossing the road crown (60.706757ms)
+✔ review shot switching resets pending physics targets and bike lean (21.695336ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 24
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1973.980041

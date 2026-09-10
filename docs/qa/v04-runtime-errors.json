@@ -1,0 +1,20 @@
+[
+  {
+    "level": "error",
+    "message": "THREE.WebGLRenderer: A WebGL context could not be created. Reason:  Could not create a WebGL context, VENDOR = 0xffff, DEVICE = 0xffff, GL_VENDOR = Disabled, GL_RENDERER = Disabled, Sandboxed = yes, Optimus = no, AMD switchable = no, Reset notification strategy = 0x0000, ErrorMessage = BindToCurrentSequence failed: .",
+    "timestamp": "2026-09-10T08:19:59.888Z",
+    "url": "http://terminal.local:4173/node_modules/.vite/deps/three.module-Cv_qd28z.js?v=5bd8b8a7"
+  },
+  {
+    "level": "error",
+    "message": "THREE.WebGLRenderer: A WebGL context could not be created. Reason:  Could not create a WebGL context, VENDOR = 0xffff, DEVICE = 0xffff, GL_VENDOR = Disabled, GL_RENDERER = Disabled, Sandboxed = yes, Optimus = no, AMD switchable = no, Reset notification strategy = 0x0000, ErrorMessage = BindToCurrentSequence failed: .",
+    "timestamp": "2026-09-10T08:19:59.888Z",
+    "url": "http://terminal.local:4173/node_modules/.vite/deps/three.module-Cv_qd28z.js?v=5bd8b8a7"
+  },
+  {
+    "level": "error",
+    "message": "THREE.WebGLRenderer: THREE.WebGLRenderer: Error creating WebGL context.",
+    "timestamp": "2026-09-10T08:19:59.888Z",
+    "url": "http://terminal.local:4173/node_modules/.vite/deps/three.module-Cv_qd28z.js?v=5bd8b8a7"
+  }
+]
