@@ -1,8 +1,12 @@
-# Đông Hải — Village Assets v0.4
+# Đông Hải — Village Audio v0.5
 
-Checkpoint local Three.js + Rapier + React/Vinext. Production build và 28 test PASS; chưa nghiệm thu đồ họa hoặc gameplay runtime. Xem [báo cáo v0.4](docs/VILLAGE_V04.md).
+Checkpoint local Three.js + Rapier + React/Vinext. Production build và 32 test PASS; chưa nghiệm thu đồ họa hoặc gameplay runtime. Xem [báo cáo âm thanh v0.5](docs/AUDIO_V05.md).
 
-Bản này thay cây/cỏ, nhân vật/NPC, xe máy/ô tô; thêm sân nhà và chó/gà. Footer phải ghi “Village assets 0.4”.
+Bản này thay cây/cỏ, nhân vật/NPC, xe máy/ô tô; thêm sân nhà và chó/gà. Footer phải ghi “Village audio 0.5”.
+
+## Âm thanh mới
+
+Nhạc nền, gió/chim/sóng biển, bước chân, nhảy/tiếp đất, động cơ và hiệu ứng tương tác. Bấm Bắt đầu/Tiếp tục để bật; điều chỉnh ở Cài đặt. Trang dev `/audio-check` kiểm tra audio độc lập với WebGL.
 
 ## Chạy trên máy của bạn
 

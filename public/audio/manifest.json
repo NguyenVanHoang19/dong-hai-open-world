@@ -1,0 +1,194 @@
+{
+  "authoring": "Original procedural audio authored for this project; no external samples or music.",
+  "generator": "scripts/generate-audio.py",
+  "seed": 20260910,
+  "assets": [
+    {
+      "id": "village-music",
+      "file": "village-music.mp3",
+      "seconds": 48.0,
+      "sampleRate": 32000,
+      "channels": 2,
+      "peak": 0.33441335772489633,
+      "loop": true,
+      "description": "Original 48-second pentatonic instrumental loop",
+      "sha256": "4617ce917873e836b7626d2e33bb24d60c71f5519e4020aa5c80a14acc0709c4"
+    },
+    {
+      "id": "village-air",
+      "file": "village-air.mp3",
+      "seconds": 12.0,
+      "sampleRate": 32000,
+      "channels": 2,
+      "peak": 0.09382242242531313,
+      "loop": true,
+      "description": "Procedural wind and birds",
+      "sha256": "28f33e703b5d50bf98c03f3aebf45ced83aa5f2d43d480bf53c8c5d1f2c81216"
+    },
+    {
+      "id": "coast-surf",
+      "file": "coast-surf.mp3",
+      "seconds": 12.0,
+      "sampleRate": 32000,
+      "channels": 2,
+      "peak": 0.15095167771334808,
+      "loop": true,
+      "description": "Procedural soft surf",
+      "sha256": "db50565b879f28f10f5de16881c13e6f9b7249a156e859eb8964d10f75d100ea"
+    },
+    {
+      "id": "step-road-1",
+      "file": "step-road-1.wav",
+      "seconds": 0.2,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.3733992987476694,
+      "loop": false,
+      "description": "Footstep road variation 1",
+      "sha256": "d73476d348f9a8e27ed2ff724057812d147eecb1e94638cc6d90addc6688419c"
+    },
+    {
+      "id": "step-road-2",
+      "file": "step-road-2.wav",
+      "seconds": 0.2,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.35137893884604166,
+      "loop": false,
+      "description": "Footstep road variation 2",
+      "sha256": "f7e30479ff5aad238e3d5959f9df3a767541edf421373d3cca38acf1db265bf5"
+    },
+    {
+      "id": "step-road-3",
+      "file": "step-road-3.wav",
+      "seconds": 0.2,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.5050459790045753,
+      "loop": false,
+      "description": "Footstep road variation 3",
+      "sha256": "8e9554d0bc0d946c241aee54dfb1f48034c0f9adae86471301d894f37d7c6c98"
+    },
+    {
+      "id": "step-dirt-1",
+      "file": "step-dirt-1.wav",
+      "seconds": 0.2,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.28641404990624136,
+      "loop": false,
+      "description": "Footstep dirt variation 1",
+      "sha256": "f40b8032aea3083f504f738b5cf48f8d405d06ae6c5a10f9a817da4c32cbe923"
+    },
+    {
+      "id": "step-dirt-2",
+      "file": "step-dirt-2.wav",
+      "seconds": 0.2,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.3751012745109212,
+      "loop": false,
+      "description": "Footstep dirt variation 2",
+      "sha256": "99c7f0e6e1a4fb172a2ec92aed7e97919eccdeffcb01f7236f61a101f3b5158a"
+    },
+    {
+      "id": "step-dirt-3",
+      "file": "step-dirt-3.wav",
+      "seconds": 0.2,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.3490965504077054,
+      "loop": false,
+      "description": "Footstep dirt variation 3",
+      "sha256": "84dcbc2696395f54c0083bb9ada7d7e2cc6472233e2c28f2aaf0b8826d338dc7"
+    },
+    {
+      "id": "ui",
+      "file": "ui.wav",
+      "seconds": 0.08,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.15433139759265296,
+      "loop": false,
+      "description": "Original ui cue",
+      "sha256": "7c15d0cbea8465dc17cd5e46b820daf3c6ad7a56489347abdd2a64c371984938"
+    },
+    {
+      "id": "interact",
+      "file": "interact.wav",
+      "seconds": 0.18,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.15454082929990423,
+      "loop": false,
+      "description": "Original interact cue",
+      "sha256": "df83cd9b720da451e837b50a6be342c2d76aaa6f77be15d7f640b03a2a984be1"
+    },
+    {
+      "id": "mount",
+      "file": "mount.wav",
+      "seconds": 0.17,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.3981233418782709,
+      "loop": false,
+      "description": "Original mount cue",
+      "sha256": "542149a3f9d252e4be53a2f2c7e943134ad92fbb1d7f6f524aa4f1a5ed02ebe2"
+    },
+    {
+      "id": "dismount",
+      "file": "dismount.wav",
+      "seconds": 0.17,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.3507014487437793,
+      "loop": false,
+      "description": "Original dismount cue",
+      "sha256": "245cc095cf3d0b81365c211c1a117f763ae62ac68fb27ecd4b705457a7e02a70"
+    },
+    {
+      "id": "jump",
+      "file": "jump.wav",
+      "seconds": 0.18,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.15019902605966368,
+      "loop": false,
+      "description": "Original jump cue",
+      "sha256": "664ecec1bb11f3ee0a7ccf47a78153ac721213127362619472eed8454a3b0d13"
+    },
+    {
+      "id": "land",
+      "file": "land.wav",
+      "seconds": 0.23,
+      "sampleRate": 32000,
+      "channels": 1,
+      "peak": 0.3978798223603569,
+      "loop": false,
+      "description": "Original land cue",
+      "sha256": "61b3bfa04841261030efa33e97c8eeea70d6141a1dfa9694867e912f004f091d"
+    },
+    {
+      "id": "purchase",
+      "file": "purchase.wav",
+      "seconds": 1.2,
+      "sampleRate": 32000,
+      "channels": 2,
+      "peak": 0.2776938163891514,
+      "loop": false,
+      "description": "Original purchase confirmation",
+      "sha256": "b831646a862a269adfb1c707ecc39b33a2e7dfb455ba6d4b99ccdda68fc1699c"
+    },
+    {
+      "id": "quest",
+      "file": "quest.wav",
+      "seconds": 1.2,
+      "sampleRate": 32000,
+      "channels": 2,
+      "peak": 0.3346869789076704,
+      "loop": false,
+      "description": "Original quest confirmation",
+      "sha256": "92e0bb6c34ca9cb448254a323729f455d22c3f01282cb36b9968aad3d3372647"
+    }
+  ]
+}

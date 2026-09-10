@@ -5,7 +5,7 @@ import {join} from 'node:path';
 import ts from 'typescript';
 import * as T from 'three';
 const dir=mkdtempSync(new URL('./.scene-test-',import.meta.url).pathname);
-for(const file of ['surfaces','models','landscape','avatar','navigation','content','engine','roads','visual-qa','organic','vegetation','vehicles','architecture','animals']){
+for(const file of ['surfaces','models','landscape','avatar','navigation','content','engine','roads','visual-qa','organic','vegetation','vehicles','architecture','animals','audio']){
  const source=readFileSync(new URL('../game/'+file+'.ts',import.meta.url),'utf8');
  const js=ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText.replace(/from '(\.\/[^']+)'/g,"from '$1.mjs'");writeFileSync(join(dir,file+'.mjs'),js);
 }

@@ -1,6 +1,6 @@
 {
   "name": "dong-hai-open-world",
-  "version": "0.4.0-asset-rebuild",
+  "version": "0.5.0-audio",
   "private": true,
   "engines": {
     "node": ">=22.13.0"

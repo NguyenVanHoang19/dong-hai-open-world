@@ -1,0 +1,52 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> dong-hai-open-world@0.5.0-audio test
+> node --test tests/*.test.mjs
+
+Audio pack bytes: 1316847
+✔ audio preferences clamp corrupt volumes without muting default music (1.522667ms)
+✔ footsteps follow distance at 30/60/120 FPS and stop at walls or in vehicles (0.829006ms)
+✔ landing fires once after airborne and never on spawn or vehicle exit (0.123065ms)
+✔ all 17 original audio assets match manifest hashes and stay inside amplitude/size budget (3.204212ms)
+✔ origin and local axis directions (1.552813ms)
+✔ mission finishes once with exact cost, item consumption and reward (0.258228ms)
+✔ pre-purchased quest item never requires a second purchase (0.13987ms)
+✔ wrong event/target cannot advance mission (0.100491ms)
+✔ delivery requires an item (0.096795ms)
+✔ insufficient funds and invalid item leave state untouched (0.088383ms)
+✔ save round-trip retains progress (0.27314ms)
+✔ corrupt save and malformed vehicle positions are rejected/sanitized (0.147752ms)
+✔ segment projection clamps and handles zero length (0.248203ms)
+✔ A* respects direction and disconnected roads (0.542706ms)
+✔ OSM route links gate, shop and coast (6.980525ms)
+✔ Rapier capsule stays above ground and cannot cross a wall after 600 steps (90.515991ms)
+✔ locomotion converges smoothly and consistently at 30/60/120 Hz (1.063778ms)
+✔ turning crosses the -PI/PI seam via the short arc (0.144668ms)
+✔ skinned player has bones and all animated transforms stay finite (19.989126ms)
+✔ detailed house preserves finite geometry and batches draw calls (27.534319ms)
+✔ tree has three decreasing LOD levels and finite distant hills (11.814065ms)
+✔ OSM planting highest-detail active instances stay within budget (83.526947ms)
+Village fixture: 105 houses with colliders
+Road crossing endpoint vA {
+  x: -0.0015180760528892279,
+  y: 0.756808876991272,
+  z: 3.9399337768554688
+} crown height 0.8705505728721619
+✔ full village build keeps houses bounded and creates matching colliders (626.409322ms)
+✔ crowned road has upward normals, joined stations and finite geometry (1.008996ms)
+✔ road strips preserve provided OSM points at center and support duplicate nodes (0.556627ms)
+✔ five review camera definitions are deterministic and include vehicle view (2.095789ms)
+✔ road physics supports a capsule crossing the road crown (108.823325ms)
+✔ review shot switching resets pending physics targets and bike lean (18.852909ms)
+✔ batching mixed indexed/extruded meshes preserves all triangles and LOD (1.372442ms)
+✔ vehicle wheel rotation, steering damping and resets work for both models (13.862233ms)
+✔ twenty residential arrangements keep driveway open and bound colliders (86.22557ms)
+✔ dog and chicken motion is finite, bounded and continuous in the yard (17.866207ms)
+ℹ tests 32
+ℹ suites 0
+ℹ pass 32
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1924.576696
